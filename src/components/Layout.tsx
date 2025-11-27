@@ -7,7 +7,7 @@ const Layout: React.FC = () => {
         <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <AppBar position="static">
                 <Toolbar>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                    <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
                         My Photo Album
                     </Typography>
                 </Toolbar>
